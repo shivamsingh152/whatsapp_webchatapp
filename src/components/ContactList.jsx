@@ -7,9 +7,9 @@ export const ContactList = () => {
     const [searchTerm, setSearchTerm] = useState('');
   
     const contacts = [
-      { id: 1, name: 'John Doe', lastMessage: 'Hey there!', time: '10:30 AM' },
-      { id: 2, name: 'Jane Smith', lastMessage: 'How are you?', time: '9:45 AM' },
-      { id: 3, name: 'Alice Johnson', lastMessage: 'See you soon!', time: 'Yesterday' }
+      { id: 1, name: 'shivam', lastMessage: 'Hey there!', time: '10:30 AM' },
+      { id: 2, name: 'harsh', lastMessage: 'How are you?', time: '9:45 AM' },
+      { id: 3, name: 'abhi', lastMessage: 'See you soon!', time: 'Yesterday' }
     ];
   
     const filteredContacts = contacts.filter(contact =>
